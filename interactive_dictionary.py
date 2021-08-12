@@ -2,7 +2,7 @@ import json
 from difflib import get_close_matches
 
 #load JSON data
-data = json.load(open("data.json"))
+data=json.load(open("data.json"))
 
 #take word from user
 word=input('Enter word: ')
